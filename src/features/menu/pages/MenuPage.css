@@ -1,0 +1,25 @@
+/* Search Bar */
+.search-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 18px;
+  margin: 20px auto;
+  display: block;
+
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  outline: none;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.search-box::placeholder {
+  color: #888;
+}
+
+.search-box:focus {
+  border-color: #ff6b35;
+  box-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
+}
